@@ -204,13 +204,24 @@ Nᴀᴍᴇ - {}"""
 =========== • ✠ • ===========</b>"""
 
     IMDB_TEMPLATE_TXT = """
-<b>Query: {query}
-IMDb Data:
+<b>🔖 ᴛɪᴛʟᴇ :<a href={url}>{title}</a>
 
-🏷 Title: <a href={url}>{title}</a>
-🎭 Genres: {genres}
-📆 Year: <a href={url}/releaseinfo>{year}</a>
-🌟 Rating: <a href={url}/ratings>{rating}</a> / 10</b>"""
+🎭 ɢᴇɴʀᴇs : {genres}
+
+🎖 ʀᴀᴛɪɴɢ : <a href={url}/ratings>{rating}</a> / 10 (ʙᴀsᴇᴅ ᴏɴ {votes} ᴜsᴇʀ ʀᴀᴛɪɴɢ.)
+
+📆 ʏᴇᴀʀ : {release_date}
+
+🗞 ʟᴀɴɢᴜᴀɢᴇ : {languages}
+
+🌎 ᴄᴏᴜɴᴛʀʏ : {countries}
+
+⏰ DURATION: {runtime} Minutes 
+
+👤 Requested By: {message.from_user.mention}
+
+©{message.chat.title}</b>
+"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
