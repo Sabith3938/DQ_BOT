@@ -352,7 +352,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton(⌬ 'Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⌬', url=GRP_LNK),
+              InlineKeyboardButton('⌬ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⌬', url=GRP_LNK),
               InlineKeyboardButton('〄 Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 〄', url=CHNL_LNK)
            ],[
               InlineKeyboardButton('Iɴʟɪɴᴇ SEARCH ☌', switch_inline_query_current_chat='')
